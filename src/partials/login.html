@@ -1,0 +1,35 @@
+<section class="card login">
+  <form name="myform"
+    ng-submit="register.login()"
+    novalidate>
+
+    <div class="login-logo">
+        <img src="/images/andigital-logo.png" class="img-responsive">
+    </div>
+
+    <div class="textintro">
+      <p class="message"
+        ng-show="message"> {{ message }}</p>
+    </div>
+
+    <fieldset>
+      <input type="email" name="email" placeholder="Email"
+       ng-model="user.email" ng-required="true">
+      <p class="error validationerror"
+      ng-show="myform.email.$invalid && myform.email.$touched">
+      Must be a valid email</p>
+
+
+      <input type="password" name="password" placeholder="Password"
+      ng-model="user.userPassword" ng-required="true">
+      <p class="error validationerror"
+      ng-show="myform.userPassword.$invalid && myform.email.$touched">
+      Password is required</p>
+
+    </fieldset>
+
+    <button type="submit" class="btn btn-lg btn-primary btn-block and-btn"
+      ng-disabled="myform.$invalid">Login</button>
+    <p class="text-center">or <a ng-href="#/register">register</a></p>
+  </form>
+</section>

@@ -1,6 +1,6 @@
 # ANDLinked Prototype
 
-
+* Integration of Angular 1.5 with Google Firebase (3.6) using AngularFire 2.0.1
 
 ## Installation
 

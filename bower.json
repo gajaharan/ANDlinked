@@ -21,10 +21,12 @@
     "test"
   ],
   "dependencies": {
-    "angular": "~1.4.5",
-    "angular-mocks": "~1.4.5",
-    "angular-route": "~1.4.5",
-    "bootstrap": "~3.3.5"
+    "angular": "~1.5.9",
+    "angular-mocks": "~1.5.9",
+    "angular-route": "~1.5.9",
+    "bootstrap": "~3.3.5",
+    "firebase":"3.6.0",
+    "angularfire":"2.0.1"
   },
 	"overrides": {
 		"bootstrap": {
