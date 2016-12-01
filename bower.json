@@ -1,0 +1,37 @@
+{
+  "name": "ANDlinked",
+  "version": "0.0.1",
+  "homepage": "https://github.com/gajaharan/ANDlinked",
+  "private": true,
+  "authors": [
+    "Gajaharan Satkunanandan <gajaharan@gmail.com>"
+  ],
+  "description": "ANDigital CV viewer",
+  "main": "index.html",
+  "keywords": [
+    "angular",
+    "CV",
+    "ANDigital"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "dependencies": {
+    "angular": "~1.4.5",
+    "angular-mocks": "~1.4.5",
+    "angular-route": "~1.4.5",
+    "bootstrap": "~3.3.5"
+  },
+	"overrides": {
+		"bootstrap": {
+			"main": [
+				"dist/css/bootstrap.css",
+    		"dist/js/bootstrap.js"
+			]
+		}
+	}
+}
